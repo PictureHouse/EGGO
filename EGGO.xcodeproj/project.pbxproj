@@ -12,6 +12,13 @@
 		019D87E62BF06DCD008982AA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D87E52BF06DCD008982AA /* Item.swift */; };
 		019D87E82BF06DCE008982AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D87E72BF06DCE008982AA /* Assets.xcassets */; };
 		019D87EB2BF06DCE008982AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D87EA2BF06DCE008982AA /* Preview Assets.xcassets */; };
+		01E6E7382BF23E6C005679D0 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E7372BF23E6C005679D0 /* AppMainView.swift */; };
+		01E6E73A2BF23E7F005679D0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E7392BF23E7F005679D0 /* HeaderView.swift */; };
+		01E6E73C2BF23E8C005679D0 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E73B2BF23E8C005679D0 /* FooterView.swift */; };
+		01E6E73E2BF23EE3005679D0 /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E73D2BF23EE3005679D0 /* MyInfoView.swift */; };
+		01E6E7402BF23F42005679D0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E73F2BF23F42005679D0 /* SettingsView.swift */; };
+		01E6E7422BF23F7E005679D0 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E7412BF23F7E005679D0 /* SectionHeaderView.swift */; };
+		01E6E7442BF24081005679D0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6E7432BF24081005679D0 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,13 @@
 		019D87E52BF06DCD008982AA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		019D87E72BF06DCE008982AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019D87EA2BF06DCE008982AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01E6E7372BF23E6C005679D0 /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
+		01E6E7392BF23E7F005679D0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		01E6E73B2BF23E8C005679D0 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		01E6E73D2BF23EE3005679D0 /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
+		01E6E73F2BF23F42005679D0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		01E6E7412BF23F7E005679D0 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		01E6E7432BF24081005679D0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +67,9 @@
 		019D87E02BF06DCD008982AA /* EGGO */ = {
 			isa = PBXGroup;
 			children = (
+				01E6E7362BF23DE3005679D0 /* Data */,
+				01E6E7352BF23DDA005679D0 /* View */,
 				019D87E12BF06DCD008982AA /* EGGOApp.swift */,
-				019D87E32BF06DCD008982AA /* ContentView.swift */,
-				019D87E52BF06DCD008982AA /* Item.swift */,
 				019D87E72BF06DCE008982AA /* Assets.xcassets */,
 				019D87E92BF06DCE008982AA /* Preview Content */,
 			);
@@ -68,6 +82,29 @@
 				019D87EA2BF06DCE008982AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01E6E7352BF23DDA005679D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				019D87E32BF06DCD008982AA /* ContentView.swift */,
+				01E6E7372BF23E6C005679D0 /* AppMainView.swift */,
+				01E6E7392BF23E7F005679D0 /* HeaderView.swift */,
+				01E6E73B2BF23E8C005679D0 /* FooterView.swift */,
+				01E6E73D2BF23EE3005679D0 /* MyInfoView.swift */,
+				01E6E73F2BF23F42005679D0 /* SettingsView.swift */,
+				01E6E7412BF23F7E005679D0 /* SectionHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01E6E7362BF23DE3005679D0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				019D87E52BF06DCD008982AA /* Item.swift */,
+				01E6E7432BF24081005679D0 /* UserData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E6E73E2BF23EE3005679D0 /* MyInfoView.swift in Sources */,
+				01E6E7402BF23F42005679D0 /* SettingsView.swift in Sources */,
+				01E6E73A2BF23E7F005679D0 /* HeaderView.swift in Sources */,
 				019D87E42BF06DCD008982AA /* ContentView.swift in Sources */,
+				01E6E7422BF23F7E005679D0 /* SectionHeaderView.swift in Sources */,
+				01E6E7382BF23E6C005679D0 /* AppMainView.swift in Sources */,
+				01E6E73C2BF23E8C005679D0 /* FooterView.swift in Sources */,
 				019D87E62BF06DCD008982AA /* Item.swift in Sources */,
+				01E6E7442BF24081005679D0 /* UserData.swift in Sources */,
 				019D87E22BF06DCD008982AA /* EGGOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,18 +323,24 @@
 				DEVELOPMENT_TEAM = WAC2RPX5HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EGGO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.picturehouse.EGGO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,18 +358,24 @@
 				DEVELOPMENT_TEAM = WAC2RPX5HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EGGO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.picturehouse.EGGO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
